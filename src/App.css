@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.body{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  border: 1px black solid;
+  height: 580px;
+  width: 550px;
+  margin-top:1rem;
+}
+.nav-bar{
+  border: 1px red solid;
+  height: 15%;
+  background-color: red;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.movie{
+  border: 1px black solid;
+  height: 40%; 
+  display: flex;
+}
+.logo{
+  border: 1px black solid;
+  width: 20%;
+  border-radius: 50%;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.description{
+  width: 80%;
+}
